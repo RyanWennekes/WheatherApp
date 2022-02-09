@@ -17,6 +17,7 @@
 		F0D4BACC27B3F55D00228B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4BAA227B3F55C00228B4F /* ContentView.swift */; };
 		F0D4BACD27B3F55D00228B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D4BAA327B3F55D00228B4F /* Assets.xcassets */; };
 		F0D4BACE27B3F55D00228B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D4BAA327B3F55D00228B4F /* Assets.xcassets */; };
+		F0D4BAE027B3FCD100228B4F /* OpenWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4BADF27B3FCD100228B4F /* OpenWeatherAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F0D4BAC127B3F55D00228B4F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D4BAC527B3F55D00228B4F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F0D4BAC727B3F55D00228B4F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F0D4BADF27B3FCD100228B4F /* OpenWeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,9 @@
 		F0D4BAA027B3F55C00228B4F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F0D4BADE27B3FC9C00228B4F /* API */,
 				F0D4BAA127B3F55C00228B4F /* WheatherAppApp.swift */,
+				F0D4BADD27B3F95600228B4F /* Other */,
 				F0D4BAA227B3F55C00228B4F /* ContentView.swift */,
 				F0D4BAA327B3F55D00228B4F /* Assets.xcassets */,
 			);
@@ -139,6 +143,21 @@
 				F0D4BAC727B3F55D00228B4F /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F0D4BADD27B3F95600228B4F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F0D4BADE27B3FC9C00228B4F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F0D4BADF27B3FCD100228B4F /* OpenWeatherAPI.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +320,7 @@
 			files = (
 				F0D4BACB27B3F55D00228B4F /* ContentView.swift in Sources */,
 				F0D4BAC927B3F55D00228B4F /* WheatherAppApp.swift in Sources */,
+				F0D4BAE027B3FCD100228B4F /* OpenWeatherAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
